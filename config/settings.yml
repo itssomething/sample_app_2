@@ -1,0 +1,3 @@
+name_max: 25
+email_max: 255
+password_min: 6
