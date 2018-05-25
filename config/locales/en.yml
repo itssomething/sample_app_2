@@ -30,6 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  user_not_found: "User not found"
+  welcome: "Welcome!"
   hello: "Hello world"
   en_title: "Ruby on Rails Tutorial"
   static_pages:
@@ -76,4 +78,9 @@ en:
   users:
     new:
       t1: "Sign up"
-      t2: "This will be a signup page for new users."
+      t2: "Create my account"
+      t3: "Confirmation"
+  shared:
+    error_messages:
+      error_messages: "This form contain "
+      error: "error"
