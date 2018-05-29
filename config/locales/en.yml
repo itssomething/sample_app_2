@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  invalid_auth: "Invalid email/password combination"
   user_not_found: "User not found"
   welcome: "Welcome!"
   hello: "Hello world"
@@ -75,6 +76,11 @@ en:
       login: "Log in"
       title: "Sample App"
       logo_alt: "Rails logo"
+      user: "User"
+      profile: "Profile"
+      setting: "Setting"
+      logout: "Log out"
+      account: "Account"
   users:
     new:
       t1: "Sign up"
@@ -84,3 +90,8 @@ en:
     error_messages:
       error_messages: "This form contain "
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      signup: "Sign up now!"
+      new: "New user?"
