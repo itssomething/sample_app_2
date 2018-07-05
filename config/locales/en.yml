@@ -32,8 +32,11 @@
 en:
   invalid_auth: "Invalid email/password combination"
   user_not_found: "User not found"
+  profile_updated: "Profile updated"
+  user_deleted: "User deleted"
   welcome: "Welcome!"
   hello: "Hello world"
+  pls_log_in: "Please log in"
   en_title: "Ruby on Rails Tutorial"
   static_pages:
     help:
@@ -86,6 +89,15 @@ en:
       t1: "Sign up"
       t2: "Create my account"
       t3: "Confirmation"
+    edit:
+      edit: "Edit user"
+      save: "Save change"
+      update: "Update your profile"
+    index:
+      all: "All users"
+    user:
+      delete: "Delete"
+      you_sure: "You sure?"
   shared:
     error_messages:
       error_messages: "This form contain "
