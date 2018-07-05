@@ -86,6 +86,10 @@ en:
       t1: "Sign up"
       t2: "Create my account"
       t3: "Confirmation"
+    index:
+      t1: "All users"
+    user:
+      confirm: "You sure?"
   shared:
     error_messages:
       error_messages: "This form contain "
