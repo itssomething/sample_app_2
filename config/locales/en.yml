@@ -30,6 +30,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  acc_not_activated: "Account not activated. Check your email for the activation link."
+  invalid_link: "Invalid activation link"
+  acc_activated: "Account activated"
+  pls_check_email: "Please check your email to activate your account."
   invalid_auth: "Invalid email/password combination"
   user_not_found: "User not found"
   profile_updated: "Profile updated"
