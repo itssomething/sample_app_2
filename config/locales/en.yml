@@ -30,6 +30,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  pwd_reset: "Password reset"
+  acc_activation: "Account activation"
+  not_empty: "can't be empty"
+  token_expired: "Password reset has expired."
+  password_reseted: "Password has been reset."
+  email_not_found: "Email not found"
+  email_sent: "Email sent with password reset instructions"
   acc_not_activated: "Account not activated. Check your email for the activation link."
   invalid_link: "Invalid activation link"
   acc_activated: "Account activated"
@@ -112,3 +119,12 @@ en:
       signup: "Sign up now!"
       new: "New user?"
       remember: "Remember me on this computer"
+      forgot: "forgot password"
+  password_resets:
+    edit:
+      title: "Reset password"
+      confirmation: "Confirmation"
+      update: "Update password"
+    new:
+      title: "Forgot password"
+      submit: "Submit"
