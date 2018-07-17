@@ -2,3 +2,5 @@ name_max: 25
 email_max: 255
 password_min: 6
 gravatar_size: 50
+content_max_length: 140
+picture_size: 400

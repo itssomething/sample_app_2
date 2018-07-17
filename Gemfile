@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem "carrierwave", "1.2.2"
+gem "mini_magick", "4.7.0"
 gem "rails-controller-testing"
 gem "config"
 gem "bcrypt", "3.1.12"
@@ -59,6 +61,7 @@ end
 
 group :production do
   gem "pg", "0.20.0"
+  gem "fog", "1.42"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

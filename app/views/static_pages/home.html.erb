@@ -1,10 +1,27 @@
-<div class="center jumbotron">
-  <h1><%= t(".title") %></h1>
-  <h2>
-    <span><%= t(".t1") %></span>
-    <span><%= raw t(".t2") %></span>
-    <span><%= t(".t3") %></span>
-  </h2>
-  <%= link_to t(".t4"), signup_path, class: "btn btn-lg btn-primary" %>
-</div>
-<%= link_to image_tag("rails.png", alt: t("logo_alt")), "http://rubyonrails.org/" %>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t ".t5" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1><%= t ".title" %></h1>
+    <h2>
+      <span><%= t ".t1" %></span>
+      <span><%= raw t ".t2" %></span>
+      <span><%= t ".t3" %></span>
+    </h2>
+    <%= link_to t(".t4"), signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+  <%= link_to image_tag("rails.png", alt: t("logo_alt")), "http://rubyonrails.org/" %>
+<% end %>
