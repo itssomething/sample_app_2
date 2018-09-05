@@ -53,6 +53,12 @@ en:
   hello: "Hello world"
   pls_log_in: "Please log in"
   en_title: "Ruby on Rails Tutorial"
+  microposts:
+    micropost:
+      confirm: "You sure?"
+      posted: "Posted "
+      ago: " ago"
+      delete: "delete"
   static_pages:
     help:
       title: "Help"
@@ -116,6 +122,13 @@ en:
       you_sure: "You sure?"
     show:
       micropost: "Micropost"
+    follow:
+      follow_submit: "Follow"
+    unfollow:
+      unfollow_submit: "Unfollow"
+    show_follow:
+      microposts: "Microposts:"
+      view_profile: "view my profile"
   shared:
     user_info:
       micropost: "micropost"
@@ -126,6 +139,9 @@ en:
     micropost_form:
       compose_placeholder: "Compose new micropost..."
       post: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       login: "Log in"
@@ -141,8 +157,9 @@ en:
     new:
       title: "Forgot password"
       submit: "Submit"
-  microposts:
-    microposts: "delete"
-    confirm: "You sure?"
-    posted: "Posted"
-    ago: "ago"
+  controller:
+    users:
+      following:
+        title: "Following"
+      followers:
+        title: "Followers"
