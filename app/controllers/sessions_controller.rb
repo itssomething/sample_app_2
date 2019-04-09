@@ -13,6 +13,9 @@ class SessionsController < ApplicationController
         flash[:warning] = message
         redirect_to root_url
       end
+    elsif user.nil?
+      flash[:danger] = "User does not exist"
+      render :new
     end
   end
 
