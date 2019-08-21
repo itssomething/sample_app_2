@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem "carrierwave", "1.2.2"
-gem "mini_magick", "4.7.0"
+gem "mini_magick", "4.9.4"
 gem "rails-controller-testing"
 gem "config"
 gem "bcrypt", "3.1.12"
